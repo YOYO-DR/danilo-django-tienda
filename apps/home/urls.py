@@ -1,9 +1,7 @@
 from django.urls import path
-
-from .views import *
+from apps.home.views import *
 
 urlpatterns = [
-  path('',index,name='index'),
-  path('f2/',home,name='home')
+    path('',index,name='index'),
+    path('funcion/',home,name='funcion')
 ]
-
